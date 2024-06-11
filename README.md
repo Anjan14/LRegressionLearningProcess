@@ -26,7 +26,16 @@ dataset. In this assignment, we are required to develop a program that is able t
                    err-b = (1/m) ∑_(i=1)^m(yˆi - yi)  
           * Calculate the accumulated error for weight:  
                    err-w = (1/m) ∑_(i=1)^m [(yˆi - yi) * xˆi]
-        <img width="432" alt="Screenshot 2024-06-11 at 5 07 47 PM" src="https://github.com/Anjan14/LRegressionLearningProcess/assets/89369454/b291da63-1612-450e-9bc9-33e6d5b7878d">
+        <img width="432" alt="Screenshot 2024-06-11 at 5 07 47 PM" src="https://github.com/Anjan14/LRegressionLearningProcess/assets/89369454/b291da63-1612-450e-9bc9-33e6d5b7878d">    
+   
+      - Using this formula, we need to update the bias: b = b + (eta)η * error-b  
+      - Using this formula, we need to update the weight: w = w + (eta)η error-b
+   iv. We will visualize the line represented by the current weights at the end of 
+       each epoch on GUI. (like an animation.)  
+   v. Output the number of mean square error on the training data at the end of each 
+      epoch  
+   vi. Train our linear regression model for at least 500 epochs. 
+
           
          
 
