@@ -33,7 +33,9 @@ dataset. In this assignment, we are required to develop a program that is able t
        each epoch on GUI. (like an animation.)  
    v. Output the number of mean square error on the training data at the end of each 
       epoch  
-   vi. Train our linear regression model for at least 500 epochs. 
+   vi. Train our linear regression model for at least 500 epochs.
+
+## Results and Analysis
 
           
          
